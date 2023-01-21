@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body background = "a.jpg">
+    <h1 style = "color: rgb(93, 112, 148); text-align:center; font-size:350%;font-weight: bolder;">BIENVENUE</h1>
+    <fieldset>
+        <legend><h4 style = "color:rgb(93, 112, 148); text-align:center; font-size:200%; font-family:papyrus;font-weight: bolder;">Sign Up</h4></legend>
+
+        <form action="Exp 13.html" method="post" autocomplete="on" style = "color: rgb(93, 112, 148); font-size:150%; font-family:papyrus;font-weight: bolder;" >
+            <label >Name : </label>
+            <input type="text" name="name" value ="" placeholder="Enter your name" size ="20" maxlength ="20" required/></br>
+
+            <label>Password :</label>
+            <input type="text" name="name" value ="" placeholder="Password" size ="20" maxlength ="20"required></br>
+
+            <label>Gender : </label>
+            Male
+            <input type='radio' value="" name = 'Txtmale'/>
+            Female
+            <input type='radio' value="" name = 'Txtfemale'/></br>
+
+            <label>Date of Birth : </label>
+            <input type="datetime-local" name="name" value ="" size ="20" maxlength ="3"></br>
+
+            <label>Colour Palette : </label>
+            <input type="color" name="name" value ="" size ="20" maxlength ="3"></br>
+            <input type="checkbox" id="red" name="red" value="red">
+            <label for="red" style = color:rgb(202,120,120)> red</label>
+            <input type="checkbox" id="blue" name="blue" value="blue">
+            <label for="blue" style = color:rgb(141,188,215)>blue</label>
+            <input type="checkbox" id="green" name="green" value="green">
+            <label for="green" style = color:rgb(123,221,203)>green</label>
+            <input type="checkbox" id="yellow" name="purple" value="purple">
+            <label for="purple" style = color:rgb(146,103,210)>purple</label></br>
+
+            <label>Favourite season : </label><select> 
+                <option>Season 1</option>
+                <option>Season 2</option>
+                <option>Season 3</option>
+            </select></label></br>
+
+            <label for="pqr">Shows and movies like Bridgerton :</label>
+            <input list="pqrs" name="pqr" id="pqr">
+            <datalist id="pqrs">
+                <option value="Enola Holmes">
+                <option value="Outlander">
+                <option value="Reign">
+                <option value="Downtown Abbey">
+                <option value="Victoria">
+            </datalist></br>
+
+            <input type="file" name="file"></br>
+
+            <button type="reset">Reset</button>
+            <a href = "Exp 13.html">
+                <button type = "button">Submit</button>
+            </a>
+
+            <label for="file">Progress:</label>
+            <progress id="file" value="32" max="100"> 32% </progress>
+        </form>
+        </fieldset>   
+        <audio controls autoplay loop ='1' preload="none" autoplay>
+            <source src="a.mp3" type="audio/mpeg">
+        </audio>
+</body>
+</html>
